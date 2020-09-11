@@ -1,12 +1,3 @@
-fun int test(int i) {
-  if(i < 2)
-    return i;
-#!  int i;
-#!  1 + 2;
-#!  i - 3;
-#!if(i);
-#!  if(i);
-}
-10 :: minute => now;
-test(1);
-<<< "end" >>>;
+repeat(10000)
+1;
+

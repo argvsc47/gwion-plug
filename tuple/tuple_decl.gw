@@ -1,1 +1,1 @@
-<~int~>Tuple ref a;
+ref <~int~>Tuple a;

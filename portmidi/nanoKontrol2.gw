@@ -1,13 +1,13 @@
-MidiIn min;
+var MidiIn min;
 min.open(3);
 while(true) {
   min => now;
   while(min.recv()) {
-    string name;
-    " " => string pad;
+    var string name;
+    " " => var string pad;
     min.read();
-    min.data1 / 8 => int range;
-    min.data1 % 8 => int index;
+    min.data1 / 8 => var int range;
+    min.data1 % 8 => var int index;
     switch(range) {
       case 0:
         "fader"  => name;
