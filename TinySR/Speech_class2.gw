@@ -1,5 +1,5 @@
 class Speech extends TinySR {
-  private var int try;
+  var private int try;
   if(me.args())
     Std.atoi(me.arg(0)) => try;
 

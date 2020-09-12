@@ -8,34 +8,27 @@ while(true) {
     min.read();
     min.data1 / 8 => var int range;
     min.data1 % 8 => var int index;
-    switch(range) {
+    match range {
       case 0:
         "fader"  => name;
         "    "  +=> pad;
-        break;
       case 2:
         "rotor"  => name;
         "    "  +=> pad;
-        break;
       case 4:
         "solo"   => name;
         "     " +=> pad;
-        break;
       case 5:
         "transport" => name;
-        break;
       case 6:
         "mute" => name;
         "     " +=> pad;
-        break;
       case 7:
         "util" => name;
         "     " +=> pad;
-        break;
       case 8:
         "rec" => name;
         "      " +=> pad;
-        break;
     }
     name  => cerr;
     index => cerr;

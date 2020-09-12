@@ -1,0 +1,7 @@
+Machine.add("examples/int.gw");
+Machine.compile("var int i;<<< 120 >>>;");
+#!Machine.compile("int i[error];");
+
+<<< Machine.check("12 => var int i; <<< i >>>") >>>;
+Machine.check("var int i[error];");
+Machine.check(null);
