@@ -1,2 +1,2 @@
-ref <~int, strong~>Tuple a;
-ref <~int, string~>Tuple a;
+ref Tuple<~int, strong~> a;
+ref Tuple<~int, string~> a;

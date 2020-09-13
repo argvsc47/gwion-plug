@@ -1,4 +1,4 @@
-ref <~int,int~>Tuple a;
+ref Tuple<~int,int~> a;
 
 <<< a >>>;
-<<< a $ <~int~>Tuple >>>;
+<<< a $ Tuple<~int~> >>>;
