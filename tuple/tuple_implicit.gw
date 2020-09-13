@@ -1,5 +1,5 @@
 #! [contains] Tom
-fun void test(Tuple<~string~> t) {
+fun void test(Tuple<[string] t) {
   <<< t[0] >>>;
 }
 

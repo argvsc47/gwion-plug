@@ -3,6 +3,6 @@ class Person {
   45 => var int age;
 }
 
-var Person p @=> ref Tuple<~string,string~> t;
+var Person p @=> ref Tuple<[string,string] t;
 <<<t[0]>>>;
 <<<t[1]>>>;
