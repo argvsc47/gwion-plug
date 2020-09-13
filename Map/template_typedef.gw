@@ -1,16 +1,16 @@
-var Pair<~int, int~> p;
-typedef Pair<~int, int~> lol;
+var Pair<~int, int] p;
+typedef Pair<~int, int] lol;
 var lol t;
 <<< t >>>;
 <<< t.key >>>;
 class C extends lol { var int i;}
 var C c;
 <<< c.i >>>;
-class D<~A~> {
+class D<~A] {
   <<< "lol" >>>;
   var int i;
 }
-typedef D<~int~> Lol;
+typedef D<~int] Lol;
 class E extends Lol {
   var float f;
 }
