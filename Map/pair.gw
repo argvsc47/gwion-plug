@@ -1,4 +1,4 @@
-var Pair<[float, int] p;
+var Pair:[float, int] p;
 <<< p >>>;
 1 => p.key;
 2 => p.val;

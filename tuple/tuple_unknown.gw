@@ -1,2 +1,2 @@
-ref Tuple<[int, strong] a;
-ref Tuple<[int, string] a;
+ref Tuple:[int, strong] a;
+ref Tuple:[int, string] a;
