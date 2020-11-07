@@ -98,9 +98,9 @@ GWION_IMPORT(map) {
 /*
   const m_str types[] = { "A", "B" };
   const Type t_map = gwi_mk_type(gwi, "Map", SZ_INT, NULL);
-  CHECK_BB(gwi_tmpl_ini(gwi, 2, types))
-  CHECK_BB(gwi_class_ini(gwi, t_map, map_ctor, map_dtor))
-  CHECK_BB(gwi_tmpl_end(gwi))
+  GWI_BB(gwi_tmpl_ini(gwi, 2, types))
+  GWI_BB(gwi_class_ini(gwi, t_map, map_ctor, map_dtor))
+  GWI_BB(gwi_tmpl_end(gwi))
   Type_Decl* td  = new_type_decl(prepend_id_list(insert_symbol("Pair"), NULL, 0), 0);
   Type_Decl* td0 = new_type_decl(prepend_id_list(insert_symbol("A"), NULL, 0), 0);
   Type_Decl* td1 = new_type_decl(prepend_id_list(insert_symbol("B"), NULL, 0), 0);
@@ -110,17 +110,17 @@ GWION_IMPORT(map) {
   const Exp e = new_prim_int(0, 0);
   const Array_Sub array = new_array_sub(e, 0);
   td->array = array;
-  CHECK_BB(gwi_class_ext(gwi, td))
-  CHECK_BB(gwi_item_ini(gwi, "@internal", "@map_info"))
-  CHECK_BB(gwi_item_end(gwi, 0, NULL));
-  CHECK_BB(gwi_func_ini(gwi, "B", "set", gw_map_set))
-  CHECK_BB(gwi_func_arg(gwi, "A", "key"))
-  CHECK_BB(gwi_func_arg(gwi, "B", "val"))
-  CHECK_BB(gwi_func_end(gwi, 0))
-  CHECK_BB(gwi_func_ini(gwi, "B", "get", gw_map_get))
-  CHECK_BB(gwi_func_arg(gwi, "A", "key"))
-  CHECK_BB(gwi_func_end(gwi, 0))
-  CHECK_BB(gwi_class_end(gwi))
+  GWI_BB(gwi_class_ext(gwi, td))
+  GWI_BB(gwi_item_ini(gwi, "@internal", "@map_info"))
+  GWI_BB(gwi_item_end(gwi, 0, NULL));
+  GWI_BB(gwi_func_ini(gwi, "B", "set", gw_map_set))
+  GWI_BB(gwi_func_arg(gwi, "A", "key"))
+  GWI_BB(gwi_func_arg(gwi, "B", "val"))
+  GWI_BB(gwi_func_end(gwi, 0))
+  GWI_BB(gwi_func_ini(gwi, "B", "get", gw_map_get))
+  GWI_BB(gwi_func_arg(gwi, "A", "key"))
+  GWI_BB(gwi_func_end(gwi, 0))
+  GWI_BB(gwi_class_end(gwi))
 */
   return GW_OK;
 }
