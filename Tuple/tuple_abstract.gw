@@ -1,3 +1,0 @@
-#! [contains] Type 'Tuple' is abstract, declare as ref
-#import Tuple
-var Tuple u;

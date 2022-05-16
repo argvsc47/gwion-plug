@@ -1,9 +1,0 @@
-#import PortMidi
-
-new MidiIn(1) => const auto min;
-min => now;
-
-    var int status, data1, data2;
-while(min.read(status, data1, data2)) {
-    <<<status, " ", data1, " ", data2>>>;
-}

@@ -1,5 +1,0 @@
-#import Tuple
-var Tuple:[int] a;
-
-<<< a >>>;
-<<< a $ Tuple >>>;

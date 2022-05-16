@@ -1,3 +1,0 @@
-#import Tuple
-Tuple(1, 2, 3) => Unpack(b, _, c);
-<<< c >>>;

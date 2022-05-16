@@ -1,6 +1,0 @@
-#import STK
-
-var stk.BeeThree b3 ~> dac;
-b3.noteOn(440,.5);
-5::second => now;
-<<< "done" >>>;

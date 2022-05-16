@@ -1,3 +1,0 @@
-#import Tuple
-late Tuple:[int, strong] a;
-#!late Tuple:[int, string] a;

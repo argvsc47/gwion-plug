@@ -1,2 +1,0 @@
-#import Tuple
-<<< Tuple("Tom", 12)[0] >>> ;

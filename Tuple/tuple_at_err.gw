@@ -1,3 +1,0 @@
-#import Tuple
-Tuple("Tom", 6) => var Tuple:[float, int] tup;
-<<< tup >>>;

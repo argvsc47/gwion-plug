@@ -1,3 +1,0 @@
-#import Lisa
-adc ~> new LiSa(1,2, 5::second) ~> dac;
-second => now;

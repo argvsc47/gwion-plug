@@ -1,3 +1,0 @@
-#import CoreUtil
-
-CoreUtil.cp("rm.gw", "rm_copy.gw");

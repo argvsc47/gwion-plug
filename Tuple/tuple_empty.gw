@@ -1,3 +1,0 @@
-#import Tuple
-var Tuple tup;
-tup[1];
